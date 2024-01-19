@@ -11,9 +11,11 @@ public class Program {
 		
 		Rectangle rectangle = new Rectangle();
 		
-		
 		System.out.println("Enter rectangle width and height:");
+		
+		System.out.print("Enter the rectangle width: ");
 		rectangle.width = sc.nextDouble();
+		System.out.print("Enter the rectangle height: ");
 		rectangle.height = sc.nextDouble();
 		
 		sc.close();
