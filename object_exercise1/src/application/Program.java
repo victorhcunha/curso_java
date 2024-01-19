@@ -13,9 +13,9 @@ public class Program {
 		
 		System.out.println("Enter rectangle width and height:");
 		
-		System.out.print("Enter the rectangle width: ");
+		System.out.print("Enter rectangle width: ");
 		rectangle.width = sc.nextDouble();
-		System.out.print("Enter the rectangle height: ");
+		System.out.print("Enter rectangle height: ");
 		rectangle.height = sc.nextDouble();
 		
 		sc.close();
