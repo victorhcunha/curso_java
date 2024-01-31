@@ -39,6 +39,6 @@ public class Employee {
 
 	@java.lang.Override
 	public java.lang.String toString() {
-		return name + ", " + "$" + this.getNetSalary();
+		return name + ", $" +  String.format("%.2f", getNetSalary());
 	}
 }
