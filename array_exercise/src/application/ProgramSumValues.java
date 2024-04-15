@@ -28,7 +28,7 @@ public class ProgramSumValues {
             values.append(vector[i]).append(" ");
         }
 
-        System.out.printf("%nVALORES: %s %n", values.toString());
+        System.out.printf("%nVALORES: %s %n", values);
         System.out.printf("SOMA: %.2f %n", sum);
         System.out.printf("MÉDIA: %.2f", average);
 
