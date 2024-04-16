@@ -3,7 +3,7 @@ package array_exercise.src.application;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ProgramPairNumbers {
+public class ProgramEvenNumbers {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class ProgramPairNumbers {
         System.out.print("Quantos números voce vai digitar? ");
         int number = sc.nextInt();
         Double[] numbers = new Double[number];
-        int quantityPairs = 0;
+        int quantityEvens = 0;
 
         for (int i = 0; i < number; i++) {
             System.out.print("Digite um número: ");
@@ -20,15 +20,15 @@ public class ProgramPairNumbers {
 
         System.out.printf("%nNUMEROS PARES: ");
 
-        for (int i=0; i<number; i++) {
+        for (int i = 0; i < number; i++) {
             if (numbers[i] % 2 == 0) {
                 System.out.printf("%s  ", numbers[i]);
-                quantityPairs++;
+                quantityEvens++;
             }
         }
 
         System.out.println("\n");
-        System.out.printf("QUANTIDADE DE PARES = %s", quantityPairs);
+        System.out.printf("QUANTIDADE DE PARES = %s", quantityEvens);
 
         sc.close();
     }
