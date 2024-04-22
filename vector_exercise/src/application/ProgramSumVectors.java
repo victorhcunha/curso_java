@@ -1,4 +1,4 @@
-package array_exercise.src.application;
+package vector_exercise.src.application;
 
 import java.util.Locale;
 import java.util.Scanner;

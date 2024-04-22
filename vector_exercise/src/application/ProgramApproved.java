@@ -1,2 +1,2 @@
-package array_exercise.src.application;public class ProgramApproved {
+package vector_exercise.src.application;public class ProgramApproved {
 }
