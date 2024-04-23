@@ -10,15 +10,15 @@ public class ProgramFastening {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		double dolarPrice = sc.nextDouble();
-		double dolarBought = sc.nextDouble();
+		double dollarPrice = sc.nextDouble();
+		double dollarBought = sc.nextDouble();
 
 		sc.close();
 		
 		CurrencyConverter currencyConverter = new CurrencyConverter();
 		
-		currencyConverter.setdollarBought(dolarBought);
-		currencyConverter.setDollarPrice(dolarPrice);
+		currencyConverter.setdollarBought(dollarBought);
+		currencyConverter.setDollarPrice(dollarPrice);
 
 	}
 
