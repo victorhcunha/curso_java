@@ -1,4 +1,4 @@
-package entities;
+package fastening_exercise.src.entities;
 
 public class CurrencyConverter {
 	private final double tax = 0.06;

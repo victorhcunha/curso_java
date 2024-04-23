@@ -1,9 +1,9 @@
-package application;
+package fastening_exercise.src.application;
+
+import entities.CurrencyConverter;
 
 import java.util.Locale;
 import java.util.Scanner;
-
-import entities.CurrencyConverter;
 
 public class ProgramFastening {
 
