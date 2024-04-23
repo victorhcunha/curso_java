@@ -2,15 +2,15 @@ package entities;
 
 public class CurrencyConverter {
 	private final double tax = 0.06;
-	private double dolarPrice;
+	private double dollarPrice;
 	private double dolarBought;
 	
 	public void setDollarPrice(double dollarPrice) {
-		this.dolarPrice = dollarPrice;
+		this.dollarPrice = dollarPrice;
 	}
 	
 	public double getRealPrice() {
-		return dolarPrice * dolarBought * tax;
+		return dollarPrice * dolarBought * tax;
 	}
 	
 	public void setdollarBought(double dolarBought) {
