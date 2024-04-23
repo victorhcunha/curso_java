@@ -1,6 +1,5 @@
 package fastening_exercise.src.application;
-
-import entities.CurrencyConverter;
+import fastening_exercise.src.entities.CurrencyConverter;
 
 import java.util.Locale;
 import java.util.Scanner;
