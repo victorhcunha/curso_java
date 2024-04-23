@@ -1,4 +1,4 @@
-package retired_exercise.entities;
+package boardingHouse_exercise.entities;
 
 public class Rent {
     private String name;

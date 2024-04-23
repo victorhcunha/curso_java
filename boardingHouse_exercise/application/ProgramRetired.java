@@ -1,6 +1,6 @@
 package retired_exercise.application;
 
-import retired_exercise.entities.Rent;
+import boardingHouse_exercise.entities.Rent;
 
 import java.util.Locale;
 import java.util.Scanner;
